@@ -7,7 +7,7 @@ public class playerlife : MonoBehaviour
 {
     private Rigidbody2D rb;
 
-    private void start()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
@@ -20,10 +20,10 @@ public class playerlife : MonoBehaviour
         }
     }
     
-
     private void die()
     {
         rb.bodyType = RigidbodyType2D.Static;
+        Restartlevel();
     }
     
     private void Restartlevel()
