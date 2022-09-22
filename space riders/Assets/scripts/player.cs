@@ -25,10 +25,7 @@ public class player : MonoBehaviour
         transform.position = pos;
     }
 }
-        //float dirx = Input.GetAxisRaw("Horizontal");
-        //RB.velocity = new Vector2(dirx * 7f, RB.velocity.y);
         
-        //float dirx = Input.GetAxisRaw("Vertical");
         
     
 

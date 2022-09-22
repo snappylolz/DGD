@@ -14,6 +14,7 @@ public class playerlife : MonoBehaviour
     
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("a");
         if (collision.gameObject.CompareTag("meteorite"))
         {
             die(); 
@@ -24,6 +25,7 @@ public class playerlife : MonoBehaviour
     {
         rb.bodyType = RigidbodyType2D.Static;
         Restartlevel();
+        Debug.Log("b");
     }
     
     private void Restartlevel()
