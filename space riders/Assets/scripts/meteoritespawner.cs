@@ -19,7 +19,7 @@ public class meteoritespawner : MonoBehaviour
         if (Timer <= 0)
         {
             Timer = MaxTimer;
-            Instantiate(prefab, new Vector3(Random.Range(-15f,15f),Random.Range(56f,55f),0),Quaternion.identity);
+            Instantiate(prefab, new Vector3(Random.Range(-62f,64f),Random.Range(84f,82f),0),Quaternion.identity);
             
         }
 
